@@ -5,7 +5,12 @@
 }
 
 body {
-  
+  font-family: "Body";
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 124px;
 }
 
 .author-info {
@@ -21,28 +26,71 @@ body {
 }
 
 #card-container {
-  
+  margin-bottom: 124px;
+  width:418px
 }
-
+/* I have write this again */
+/* 
 #image-container {
-  
+  position: relative;
 }
 
-#content-container {}
+#image-container svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+#image-container img {
+  border-radius: 15px;
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  position: relative;
+} */
+
+#content-container {
+ padding-left: 32px;
+ padding-right: 32px;
+}
 
 #content-container h2 {
   font-family: "Poppins";
   font-weight: 500;
+  padding-bottom: 12px;
 }
 
-#content-container p {}
+#content-container p {
+  padding-bottom:24px;
+  font-family: 'Lato';
+}
 
-#profile-container {}
+#profile-container {
+  padding-top:24px;
+  display: flex;
+}
 
-#avatar {}
+#avatar img{
+  height: 38px;
+  border-radius: 50%;
+}
 
-#profile-details {}
+#profile-details {
+  padding-left:12px;
+}
 
-#profile-details h6 {}
+#profile-details h6 {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 500;
+}
 
-#profile-details p {}
+#profile-details p {
+  font-family: 'Lato';
+  font-size: 10px;
+  padding-top: 5px;
+}
