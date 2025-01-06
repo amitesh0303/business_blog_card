@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 124px;
+  background-color:#F2F5F9;
 }
 
 .author-info {
@@ -27,7 +28,8 @@ body {
 
 #card-container {
   margin-bottom: 124px;
-  width:418px
+  width:418px;
+  background-color:#FFFFFF;
 }
 /* I have write this again */
 
@@ -62,11 +64,13 @@ body {
   font-family: "Poppins";
   font-weight: 500;
   padding-bottom: 12px;
+  color:#111729;
 }
 
 #content-container p {
   padding-bottom:24px;
   font-family: 'Lato';
+  color:#4A5567;
 }
 
 #profile-container {
