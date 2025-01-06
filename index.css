@@ -30,7 +30,7 @@ body {
   width:418px
 }
 /* I have write this again */
-/* 
+
 #image-container {
   position: relative;
 }
@@ -45,13 +45,13 @@ body {
 }
 
 #image-container img {
+  position: relative;
   border-radius: 15px;
   height: 280px;
   width: 100%;
   object-fit: cover;
   z-index: 0;
-  position: relative;
-} */
+}
 
 #content-container {
  padding-left: 32px;
